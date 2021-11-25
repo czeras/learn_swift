@@ -31,7 +31,6 @@ let townDescription = "\(townName) has a population of \(population) and \(numbe
 print("第二章：" + townDescription)
 
 
-
 // TODO: 第三章 -------------
 // 条件语句
 // TODO: 第三章 -------------
