@@ -45,6 +45,30 @@ print("第二章：" + townDescription)
 // 数
 // TODO: 第4章 -------------
 
+// TODO: 整数
+// 整数是没有小数点和小数部分的数，也就是整个的数。
+
+// 在macOS中，Int 是64位整数，也就是说它能表示2 64 种可能的值
+print("The maximum Int value is \(Int.max).") // 9223372036854775807
+print("The minimum Int value is \(Int.min).") // -9223372036854775808
+// Int32 是Swift的32位有符号整型。用Int32 来看看32位整数的最小和最大值
+print("The maximum value for a 32-bit integer is \(Int32.max).") // 2147483647
+print("The minimum value for a 32-bit integer is \(Int32.min).") // -2147483648
+
+// 对于8位、16位和64位有符号整型，相应的还有Int8 、Int16 、Int64
+
+// 创建整数实例
+let numberOfPages: Int = 10 // 显式声明类型
+let numberOfChapters = 3    // 还是Int类型，不过是编译器推断出来的”
+
+
+
+
+
+
+
+
+
 
 
 
