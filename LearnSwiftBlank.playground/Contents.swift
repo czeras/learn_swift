@@ -61,6 +61,73 @@ print("The minimum value for a 32-bit integer is \(Int32.min).") // -214
 let numberOfPages: Int = 10 // 显式声明类型
 let numberOfChapters = 3    // 还是Int类型，不过是编译器推断出来的”
 
+/* 错误案例
+let firstBadValue: UInt = -1    // 无符号不能表示负数
+let secondBadValue: Int8 = 200  // 8位溢出错误
+*/
+
+// TODO: 整数除法
+print((10 + 2) * 5) // 60，因为(10 + 2)先计算
+print(30 - (5 - 5)) // 30，因为(5 - 5)先计算
+print(11 / 3) // 打印3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
