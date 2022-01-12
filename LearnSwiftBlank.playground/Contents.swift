@@ -125,8 +125,6 @@ if d1 + 0.1 == 1.2 {  // 这里不相等
 print("\n\n")
 
 
-
-
 // TODO: 第五章 -------------
 // switch 语句
 // TODO: 第五章 -------------
@@ -138,3 +136,84 @@ print("\n\n")
 
 //print("--- 第一章 ---")
 //print(greeting + "\n\n")
+
+
+// 函数参数
+divisionDescriptionFor(numerator: 9.0, denominator: 3.0)
+
+func divisionDescriptionFor(numerator: Double, denominator: Double) {
+    print("\(numerator) divided by \(denominator) equals \(numerator / denominator)")
+}
+
+
+print("\n\n")
+
+// TODO: 第十九章 -------------
+// 协议
+// TODO: 第十九章 -------------
+print("--- 第十九章 ---")
+
+func printTable(_ data: [[String]],withColumnLabels columnLabels:String ...) {
+    var firstRow = "|"
+    var columnWidths = [Int]()
+    
+    for columnLabel in columnLabels {
+        let columnHeader = "\(columnLabel) |"
+        firstRow += columnHeader
+        columnWidths.append(columnLabel.count)
+    }
+    print(firstRow)
+    
+    for row in data {
+        // 创建空字符串
+        var out = "|"
+        
+        for (j,item) in row.enumerated() {
+            let paddingNeeded = columnWidths[j] - item.count
+            let padding = repeatElement(" ", count: paddingNeeded).joined(separator: "")
+            
+            out += "\(padding)\(item) |"
+        }
+        print(out)
+    }
+}
+
+let data = [
+    ["Joe","30","6"],
+    ["Karen","40","18"],
+    ["Fred","50","20"],
+]
+
+//printTable(data)
+printTable(data, withColumnLabels: "Employee Name", "Age", "Years of Experience")
+
+print("\n\n将数据转换为模型调用")
+
+struct Person{
+    let name:String
+    let age:Int
+    let yearOfExperience:Int
+}
+
+struct Department{
+    let name:String
+    var people = [Person]()
+    
+    init (name:String){
+        self.name = name
+    }
+    
+    mutating func add(_ person:Person){
+        people.append(person)
+    }
+}
+
+var department = Department(name: "Engineering")
+department.add(Person(name: "Joe", age: 30, yearOfExperience: 6))
+department.add(Person(name: "Karen", age: 40, yearOfExperience: 16))
+department.add(Person(name: "Fred", age: 50, yearOfExperience: 26))
+
+
+
+
+print("\n\n")
