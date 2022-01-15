@@ -2,38 +2,39 @@
 //  ViewController.swift
 //  VocalTextEdit
 //
-//  Created by YongQin on 2022/1/14.
+//  Created by Michael W. Moore on 12/26/19.
+//  Copyright © 2019 Big Nerd Ranch. All rights reserved.
 //
 
 import Cocoa
 
 class ViewController: NSViewController {
+    
+    let speechSynthesizer = NSSpeechSynthesizer()
 
     @IBOutlet var textView: NSTextView!
     
-    let speechSynthesizer = NSSpeechSynthesizer()
-    
-    
-    @IBAction func speakbuttonClicked(_ sender: NSButton){
-    
-        let contents = textView.string
-        if textView.string == nil {
-            speechSynthesizer.startSpeaking(contents)
+    var contents: String? {
+        get {
+            return textView.string
         }
-        else {
+        set {
+            textView.string = newValue ?? ""
+        }
+    }
+    
+    @IBAction func speakButtonClicked(_ sender: NSButton) {
+        print("I should speak \(textView.string)")
+        let contents = textView.string
+        if !contents.isEmpty {
+            speechSynthesizer.startSpeaking(contents)
+        } else {
             speechSynthesizer.startSpeaking("The document is empty.")
         }
-        
     }
-    
-    @IBAction func stopButtonClicked(_ sender: NSButton){
-        print("stop btuuon was clicked")
+
+    @IBAction func stopButtonClicked(_ sender: NSButton) {
+        speechSynthesizer.stopSpeaking()
     }
-    
-    
-    
-    
-
-
 }
 

@@ -2,13 +2,16 @@
 //  AppDelegate.swift
 //  VocalTextEdit
 //
-//  Created by YongQin on 2022/1/14.
+//  Created by Michael W. Moore on 12/26/19.
+//  Copyright © 2019 Big Nerd Ranch. All rights reserved.
 //
 
 import Cocoa
 
-@main
+@NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
+
+
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
@@ -18,8 +21,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to tear down your application
     }
 
-    func applicationSupportsSecureRestorableState(_ app: NSApplication) -> Bool {
-        return true
-    }
+
 }
 

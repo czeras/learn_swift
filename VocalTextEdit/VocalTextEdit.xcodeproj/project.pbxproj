@@ -3,27 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC0923D427918835002F58A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0923D327918835002F58A2 /* AppDelegate.swift */; };
-		BC0923D627918835002F58A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0923D527918835002F58A2 /* ViewController.swift */; };
-		BC0923D827918836002F58A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0923D727918836002F58A2 /* Assets.xcassets */; };
-		BC0923DB27918836002F58A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0923D927918836002F58A2 /* Main.storyboard */; };
+		C134020423B588DD00C94FF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C134020323B588DD00C94FF8 /* AppDelegate.swift */; };
+		C134020623B588DD00C94FF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C134020523B588DD00C94FF8 /* ViewController.swift */; };
+		C134020823B588DD00C94FF8 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = C134020723B588DD00C94FF8 /* Document.swift */; };
+		C134020A23B588DF00C94FF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C134020923B588DF00C94FF8 /* Assets.xcassets */; };
+		C134020D23B588DF00C94FF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C134020B23B588DF00C94FF8 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BC0923D027918835002F58A2 /* VocalTextEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VocalTextEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC0923D327918835002F58A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC0923D527918835002F58A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BC0923D727918836002F58A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BC0923DA27918836002F58A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BC0923DC27918836002F58A2 /* VocalTextEdit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VocalTextEdit.entitlements; sourceTree = "<group>"; };
+		C134020023B588DD00C94FF8 /* VocalTextEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VocalTextEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C134020323B588DD00C94FF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C134020523B588DD00C94FF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C134020723B588DD00C94FF8 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		C134020923B588DF00C94FF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C134020C23B588DF00C94FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C134020E23B588DF00C94FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C134020F23B588DF00C94FF8 /* VocalTextEdit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VocalTextEdit.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BC0923CD27918835002F58A2 /* Frameworks */ = {
+		C13401FD23B588DD00C94FF8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,30 +36,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BC0923C727918835002F58A2 = {
+		C13401F723B588DD00C94FF8 = {
 			isa = PBXGroup;
 			children = (
-				BC0923D227918835002F58A2 /* VocalTextEdit */,
-				BC0923D127918835002F58A2 /* Products */,
+				C134020223B588DD00C94FF8 /* VocalTextEdit */,
+				C134020123B588DD00C94FF8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BC0923D127918835002F58A2 /* Products */ = {
+		C134020123B588DD00C94FF8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC0923D027918835002F58A2 /* VocalTextEdit.app */,
+				C134020023B588DD00C94FF8 /* VocalTextEdit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BC0923D227918835002F58A2 /* VocalTextEdit */ = {
+		C134020223B588DD00C94FF8 /* VocalTextEdit */ = {
 			isa = PBXGroup;
 			children = (
-				BC0923D327918835002F58A2 /* AppDelegate.swift */,
-				BC0923D527918835002F58A2 /* ViewController.swift */,
-				BC0923D727918836002F58A2 /* Assets.xcassets */,
-				BC0923D927918836002F58A2 /* Main.storyboard */,
-				BC0923DC27918836002F58A2 /* VocalTextEdit.entitlements */,
+				C134020323B588DD00C94FF8 /* AppDelegate.swift */,
+				C134020523B588DD00C94FF8 /* ViewController.swift */,
+				C134020723B588DD00C94FF8 /* Document.swift */,
+				C134020923B588DF00C94FF8 /* Assets.xcassets */,
+				C134020B23B588DF00C94FF8 /* Main.storyboard */,
+				C134020E23B588DF00C94FF8 /* Info.plist */,
+				C134020F23B588DF00C94FF8 /* VocalTextEdit.entitlements */,
 			);
 			path = VocalTextEdit;
 			sourceTree = "<group>";
@@ -64,13 +69,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BC0923CF27918835002F58A2 /* VocalTextEdit */ = {
+		C13401FF23B588DD00C94FF8 /* VocalTextEdit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC0923DF27918836002F58A2 /* Build configuration list for PBXNativeTarget "VocalTextEdit" */;
+			buildConfigurationList = C134021223B588DF00C94FF8 /* Build configuration list for PBXNativeTarget "VocalTextEdit" */;
 			buildPhases = (
-				BC0923CC27918835002F58A2 /* Sources */,
-				BC0923CD27918835002F58A2 /* Frameworks */,
-				BC0923CE27918835002F58A2 /* Resources */,
+				C13401FC23B588DD00C94FF8 /* Sources */,
+				C13401FD23B588DD00C94FF8 /* Frameworks */,
+				C13401FE23B588DD00C94FF8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -78,71 +83,72 @@
 			);
 			name = VocalTextEdit;
 			productName = VocalTextEdit;
-			productReference = BC0923D027918835002F58A2 /* VocalTextEdit.app */;
+			productReference = C134020023B588DD00C94FF8 /* VocalTextEdit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BC0923C827918835002F58A2 /* Project object */ = {
+		C13401F823B588DD00C94FF8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Big Nerd Ranch";
 				TargetAttributes = {
-					BC0923CF27918835002F58A2 = {
-						CreatedOnToolsVersion = 13.2.1;
+					C13401FF23B588DD00C94FF8 = {
+						CreatedOnToolsVersion = 11.3;
 					};
 				};
 			};
-			buildConfigurationList = BC0923CB27918835002F58A2 /* Build configuration list for PBXProject "VocalTextEdit" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = C13401FB23B588DD00C94FF8 /* Build configuration list for PBXProject "VocalTextEdit" */;
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = BC0923C727918835002F58A2;
-			productRefGroup = BC0923D127918835002F58A2 /* Products */;
+			mainGroup = C13401F723B588DD00C94FF8;
+			productRefGroup = C134020123B588DD00C94FF8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BC0923CF27918835002F58A2 /* VocalTextEdit */,
+				C13401FF23B588DD00C94FF8 /* VocalTextEdit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BC0923CE27918835002F58A2 /* Resources */ = {
+		C13401FE23B588DD00C94FF8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC0923D827918836002F58A2 /* Assets.xcassets in Resources */,
-				BC0923DB27918836002F58A2 /* Main.storyboard in Resources */,
+				C134020A23B588DF00C94FF8 /* Assets.xcassets in Resources */,
+				C134020D23B588DF00C94FF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BC0923CC27918835002F58A2 /* Sources */ = {
+		C13401FC23B588DD00C94FF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC0923D627918835002F58A2 /* ViewController.swift in Sources */,
-				BC0923D427918835002F58A2 /* AppDelegate.swift in Sources */,
+				C134020623B588DD00C94FF8 /* ViewController.swift in Sources */,
+				C134020423B588DD00C94FF8 /* AppDelegate.swift in Sources */,
+				C134020823B588DD00C94FF8 /* Document.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BC0923D927918836002F58A2 /* Main.storyboard */ = {
+		C134020B23B588DF00C94FF8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BC0923DA27918836002F58A2 /* Base */,
+				C134020C23B588DF00C94FF8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -150,13 +156,13 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BC0923DD27918836002F58A2 /* Debug */ = {
+		C134021023B588DF00C94FF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -176,7 +182,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -201,7 +206,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -211,13 +216,13 @@
 			};
 			name = Debug;
 		};
-		BC0923DE27918836002F58A2 /* Release */ = {
+		C134021123B588DF00C94FF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -237,7 +242,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -256,7 +260,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -265,56 +269,38 @@
 			};
 			name = Release;
 		};
-		BC0923E027918836002F58A2 /* Debug */ = {
+		C134021323B588DF00C94FF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = VocalTextEdit/VocalTextEdit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5UCYX7SGSA;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_FILE = VocalTextEdit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yongqin.VocalTextEdit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.VocalTextEdit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		BC0923E127918836002F58A2 /* Release */ = {
+		C134021423B588DF00C94FF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = VocalTextEdit/VocalTextEdit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5UCYX7SGSA;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_FILE = VocalTextEdit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yongqin.VocalTextEdit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.VocalTextEdit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -322,25 +308,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BC0923CB27918835002F58A2 /* Build configuration list for PBXProject "VocalTextEdit" */ = {
+		C13401FB23B588DD00C94FF8 /* Build configuration list for PBXProject "VocalTextEdit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC0923DD27918836002F58A2 /* Debug */,
-				BC0923DE27918836002F58A2 /* Release */,
+				C134021023B588DF00C94FF8 /* Debug */,
+				C134021123B588DF00C94FF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC0923DF27918836002F58A2 /* Build configuration list for PBXNativeTarget "VocalTextEdit" */ = {
+		C134021223B588DF00C94FF8 /* Build configuration list for PBXNativeTarget "VocalTextEdit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC0923E027918836002F58A2 /* Debug */,
-				BC0923E127918836002F58A2 /* Release */,
+				C134021323B588DF00C94FF8 /* Debug */,
+				C134021423B588DF00C94FF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BC0923C827918835002F58A2 /* Project object */;
+	rootObject = C13401F823B588DD00C94FF8 /* Project object */;
 }
