@@ -1,0 +1,17 @@
+workspace 'SwiftWorkSpace.xcworkspace' #workspace文件名
+
+project 'iTahDoodle/iTahDoodle.xcodeproj'
+
+
+target 'iTahDoodle' do
+  platform :ios, '10.0'
+  project 'iTahDoodle/iTahDoodle.xcodeproj' #工程路径
+
+  pod 'SnapKit', '~> 5.0.1'
+
+
+
+end
+
+
+

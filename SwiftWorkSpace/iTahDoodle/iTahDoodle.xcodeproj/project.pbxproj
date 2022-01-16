@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CCDC0BE639BD4FE419954B3 /* libPods-iTahDoodle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A11343EF63FE7A7E735FA9D /* libPods-iTahDoodle.a */; };
 		9D349B9E2794073E0062286F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D349B9D2794073E0062286F /* AppDelegate.swift */; };
 		9D349BA22794073E0062286F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D349BA12794073E0062286F /* ViewController.swift */; };
 		9D349BA52794073E0062286F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D349BA32794073E0062286F /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64E47C9B87A3E68405F68FDB /* Pods-iTahDoodle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTahDoodle.release.xcconfig"; path = "Target Support Files/Pods-iTahDoodle/Pods-iTahDoodle.release.xcconfig"; sourceTree = "<group>"; };
+		7A11343EF63FE7A7E735FA9D /* libPods-iTahDoodle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iTahDoodle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE9A05D7A187427A914771A /* Pods-iTahDoodle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTahDoodle.debug.xcconfig"; path = "Target Support Files/Pods-iTahDoodle/Pods-iTahDoodle.debug.xcconfig"; sourceTree = "<group>"; };
 		9D349B9A2794073E0062286F /* iTahDoodle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTahDoodle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D349B9D2794073E0062286F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D349BA12794073E0062286F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +33,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CCDC0BE639BD4FE419954B3 /* libPods-iTahDoodle.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2642216785693BF7CB5EC8CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CE9A05D7A187427A914771A /* Pods-iTahDoodle.debug.xcconfig */,
+				64E47C9B87A3E68405F68FDB /* Pods-iTahDoodle.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
 		9D349B912794073E0062286F = {
 			isa = PBXGroup;
 			children = (
 				9D349B9C2794073E0062286F /* iTahDoodle */,
 				9D349B9B2794073E0062286F /* Products */,
+				2642216785693BF7CB5EC8CF /* Pods */,
+				E05DE95941B74027FA3F4179 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +81,14 @@
 			path = iTahDoodle;
 			sourceTree = "<group>";
 		};
+		E05DE95941B74027FA3F4179 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A11343EF63FE7A7E735FA9D /* libPods-iTahDoodle.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,6 +96,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D349BAE2794073F0062286F /* Build configuration list for PBXNativeTarget "iTahDoodle" */;
 			buildPhases = (
+				D3C9579A75E64BCAFEB39074 /* [CP] Check Pods Manifest.lock */,
 				9D349B962794073E0062286F /* Sources */,
 				9D349B972794073E0062286F /* Frameworks */,
 				9D349B982794073E0062286F /* Resources */,
@@ -129,6 +155,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D3C9579A75E64BCAFEB39074 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iTahDoodle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9D349B962794073E0062286F /* Sources */ = {
@@ -280,6 +331,7 @@
 		};
 		9D349BAF2794073F0062286F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CE9A05D7A187427A914771A /* Pods-iTahDoodle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -308,6 +360,7 @@
 		};
 		9D349BB02794073F0062286F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64E47C9B87A3E68405F68FDB /* Pods-iTahDoodle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
