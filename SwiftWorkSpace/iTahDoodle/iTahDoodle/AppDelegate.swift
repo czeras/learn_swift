@@ -9,13 +9,6 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-    
-    
-//    window = UIWindow.init(frame: UIScreen.main.bounds)
-//
-//    //1.纯代码创建VC
-//        window?.rootViewController = MyViewController()
     
     var window: UIWindow?
 
@@ -29,9 +22,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         return true
     }
-
-   
-
-
 }
 
