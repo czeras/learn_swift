@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  iTahDoodle
 //
-//  Created by 王朝孟 on 2022/1/16.
+//  Created by YongQin on 2022/1/17.
 //
 
 import UIKit
@@ -12,8 +12,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        self.view.backgroundColor = UIColor.red;
-        
     }
 
 

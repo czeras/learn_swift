@@ -7,99 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CCDC0BE639BD4FE419954B3 /* libPods-iTahDoodle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A11343EF63FE7A7E735FA9D /* libPods-iTahDoodle.a */; };
-		9D349B9E2794073E0062286F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D349B9D2794073E0062286F /* AppDelegate.swift */; };
-		9D349BA22794073E0062286F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D349BA12794073E0062286F /* ViewController.swift */; };
-		9D349BA52794073E0062286F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D349BA32794073E0062286F /* Main.storyboard */; };
-		9D349BA72794073F0062286F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D349BA62794073F0062286F /* Assets.xcassets */; };
-		9D349BAA2794073F0062286F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D349BA82794073F0062286F /* LaunchScreen.storyboard */; };
+		BCB554B4279547A200F68274 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB554B3279547A200F68274 /* AppDelegate.swift */; };
+		BCB554B6279547A200F68274 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB554B5279547A200F68274 /* SceneDelegate.swift */; };
+		BCB554B8279547A200F68274 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB554B7279547A200F68274 /* ViewController.swift */; };
+		BCB554BB279547A200F68274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB554B9279547A200F68274 /* Main.storyboard */; };
+		BCB554BD279547A300F68274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB554BC279547A300F68274 /* Assets.xcassets */; };
+		BCB554C0279547A300F68274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB554BE279547A300F68274 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		64E47C9B87A3E68405F68FDB /* Pods-iTahDoodle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTahDoodle.release.xcconfig"; path = "Target Support Files/Pods-iTahDoodle/Pods-iTahDoodle.release.xcconfig"; sourceTree = "<group>"; };
-		7A11343EF63FE7A7E735FA9D /* libPods-iTahDoodle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iTahDoodle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CE9A05D7A187427A914771A /* Pods-iTahDoodle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTahDoodle.debug.xcconfig"; path = "Target Support Files/Pods-iTahDoodle/Pods-iTahDoodle.debug.xcconfig"; sourceTree = "<group>"; };
-		9D349B9A2794073E0062286F /* iTahDoodle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTahDoodle.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D349B9D2794073E0062286F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D349BA12794073E0062286F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9D349BA42794073E0062286F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9D349BA62794073F0062286F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9D349BA92794073F0062286F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9D349BAB2794073F0062286F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCB554B0279547A200F68274 /* iTahDoodle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTahDoodle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB554B3279547A200F68274 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCB554B5279547A200F68274 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BCB554B7279547A200F68274 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCB554BA279547A200F68274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCB554BC279547A300F68274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCB554BF279547A300F68274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCB554C1279547A300F68274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9D349B972794073E0062286F /* Frameworks */ = {
+		BCB554AD279547A200F68274 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CCDC0BE639BD4FE419954B3 /* libPods-iTahDoodle.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2642216785693BF7CB5EC8CF /* Pods */ = {
+		BCB554A7279547A200F68274 = {
 			isa = PBXGroup;
 			children = (
-				9CE9A05D7A187427A914771A /* Pods-iTahDoodle.debug.xcconfig */,
-				64E47C9B87A3E68405F68FDB /* Pods-iTahDoodle.release.xcconfig */,
-			);
-			name = Pods;
-			path = ../Pods;
-			sourceTree = "<group>";
-		};
-		9D349B912794073E0062286F = {
-			isa = PBXGroup;
-			children = (
-				9D349B9C2794073E0062286F /* iTahDoodle */,
-				9D349B9B2794073E0062286F /* Products */,
-				2642216785693BF7CB5EC8CF /* Pods */,
-				E05DE95941B74027FA3F4179 /* Frameworks */,
+				BCB554B2279547A200F68274 /* iTahDoodle */,
+				BCB554B1279547A200F68274 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9D349B9B2794073E0062286F /* Products */ = {
+		BCB554B1279547A200F68274 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D349B9A2794073E0062286F /* iTahDoodle.app */,
+				BCB554B0279547A200F68274 /* iTahDoodle.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9D349B9C2794073E0062286F /* iTahDoodle */ = {
+		BCB554B2279547A200F68274 /* iTahDoodle */ = {
 			isa = PBXGroup;
 			children = (
-				9D349B9D2794073E0062286F /* AppDelegate.swift */,
-				9D349BA12794073E0062286F /* ViewController.swift */,
-				9D349BA32794073E0062286F /* Main.storyboard */,
-				9D349BA62794073F0062286F /* Assets.xcassets */,
-				9D349BA82794073F0062286F /* LaunchScreen.storyboard */,
-				9D349BAB2794073F0062286F /* Info.plist */,
+				BCB554B3279547A200F68274 /* AppDelegate.swift */,
+				BCB554B5279547A200F68274 /* SceneDelegate.swift */,
+				BCB554B7279547A200F68274 /* ViewController.swift */,
+				BCB554B9279547A200F68274 /* Main.storyboard */,
+				BCB554BC279547A300F68274 /* Assets.xcassets */,
+				BCB554BE279547A300F68274 /* LaunchScreen.storyboard */,
+				BCB554C1279547A300F68274 /* Info.plist */,
 			);
 			path = iTahDoodle;
-			sourceTree = "<group>";
-		};
-		E05DE95941B74027FA3F4179 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7A11343EF63FE7A7E735FA9D /* libPods-iTahDoodle.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9D349B992794073E0062286F /* iTahDoodle */ = {
+		BCB554AF279547A200F68274 /* iTahDoodle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D349BAE2794073F0062286F /* Build configuration list for PBXNativeTarget "iTahDoodle" */;
+			buildConfigurationList = BCB554C4279547A300F68274 /* Build configuration list for PBXNativeTarget "iTahDoodle" */;
 			buildPhases = (
-				D3C9579A75E64BCAFEB39074 /* [CP] Check Pods Manifest.lock */,
-				9D349B962794073E0062286F /* Sources */,
-				9D349B972794073E0062286F /* Frameworks */,
-				9D349B982794073E0062286F /* Resources */,
+				BCB554AC279547A200F68274 /* Sources */,
+				BCB554AD279547A200F68274 /* Frameworks */,
+				BCB554AE279547A200F68274 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -107,25 +84,25 @@
 			);
 			name = iTahDoodle;
 			productName = iTahDoodle;
-			productReference = 9D349B9A2794073E0062286F /* iTahDoodle.app */;
+			productReference = BCB554B0279547A200F68274 /* iTahDoodle.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9D349B922794073E0062286F /* Project object */ = {
+		BCB554A8279547A200F68274 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					9D349B992794073E0062286F = {
+					BCB554AF279547A200F68274 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 9D349B952794073E0062286F /* Build configuration list for PBXProject "iTahDoodle" */;
+			buildConfigurationList = BCB554AB279547A200F68274 /* Build configuration list for PBXProject "iTahDoodle" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -133,79 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 9D349B912794073E0062286F;
-			productRefGroup = 9D349B9B2794073E0062286F /* Products */;
+			mainGroup = BCB554A7279547A200F68274;
+			productRefGroup = BCB554B1279547A200F68274 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D349B992794073E0062286F /* iTahDoodle */,
+				BCB554AF279547A200F68274 /* iTahDoodle */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9D349B982794073E0062286F /* Resources */ = {
+		BCB554AE279547A200F68274 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D349BAA2794073F0062286F /* LaunchScreen.storyboard in Resources */,
-				9D349BA72794073F0062286F /* Assets.xcassets in Resources */,
-				9D349BA52794073E0062286F /* Main.storyboard in Resources */,
+				BCB554C0279547A300F68274 /* LaunchScreen.storyboard in Resources */,
+				BCB554BD279547A300F68274 /* Assets.xcassets in Resources */,
+				BCB554BB279547A200F68274 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		D3C9579A75E64BCAFEB39074 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-iTahDoodle-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		9D349B962794073E0062286F /* Sources */ = {
+		BCB554AC279547A200F68274 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D349BA22794073E0062286F /* ViewController.swift in Sources */,
-				9D349B9E2794073E0062286F /* AppDelegate.swift in Sources */,
+				BCB554B8279547A200F68274 /* ViewController.swift in Sources */,
+				BCB554B4279547A200F68274 /* AppDelegate.swift in Sources */,
+				BCB554B6279547A200F68274 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9D349BA32794073E0062286F /* Main.storyboard */ = {
+		BCB554B9279547A200F68274 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9D349BA42794073E0062286F /* Base */,
+				BCB554BA279547A200F68274 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9D349BA82794073F0062286F /* LaunchScreen.storyboard */ = {
+		BCB554BE279547A300F68274 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9D349BA92794073F0062286F /* Base */,
+				BCB554BF279547A300F68274 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -213,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9D349BAC2794073F0062286F /* Debug */ = {
+		BCB554C2279547A300F68274 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		9D349BAD2794073F0062286F /* Release */ = {
+		BCB554C3279547A300F68274 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -329,85 +282,84 @@
 			};
 			name = Release;
 		};
-		9D349BAF2794073F0062286F /* Debug */ = {
+		BCB554C5279547A300F68274 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CE9A05D7A187427A914771A /* Pods-iTahDoodle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UCYX7SGSA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iTahDoodle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.czeras.iTahDoodle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yongqin.iTahDoodle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		9D349BB02794073F0062286F /* Release */ = {
+		BCB554C6279547A300F68274 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64E47C9B87A3E68405F68FDB /* Pods-iTahDoodle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UCYX7SGSA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iTahDoodle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.czeras.iTahDoodle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yongqin.iTahDoodle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9D349B952794073E0062286F /* Build configuration list for PBXProject "iTahDoodle" */ = {
+		BCB554AB279547A200F68274 /* Build configuration list for PBXProject "iTahDoodle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D349BAC2794073F0062286F /* Debug */,
-				9D349BAD2794073F0062286F /* Release */,
+				BCB554C2279547A300F68274 /* Debug */,
+				BCB554C3279547A300F68274 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D349BAE2794073F0062286F /* Build configuration list for PBXNativeTarget "iTahDoodle" */ = {
+		BCB554C4279547A300F68274 /* Build configuration list for PBXNativeTarget "iTahDoodle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D349BAF2794073F0062286F /* Debug */,
-				9D349BB02794073F0062286F /* Release */,
+				BCB554C5279547A300F68274 /* Debug */,
+				BCB554C6279547A300F68274 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9D349B922794073E0062286F /* Project object */;
+	rootObject = BCB554A8279547A200F68274 /* Project object */;
 }
