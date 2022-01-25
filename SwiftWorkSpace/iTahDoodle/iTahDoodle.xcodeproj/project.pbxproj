@@ -59,12 +59,20 @@
 				BCB554B3279547A200F68274 /* AppDelegate.swift */,
 				BCB554B5279547A200F68274 /* SceneDelegate.swift */,
 				BCB554B7279547A200F68274 /* ViewController.swift */,
+				BCC0D317279E84DB005BFE55 /* Supporting Files */,
+			);
+			path = iTahDoodle;
+			sourceTree = "<group>";
+		};
+		BCC0D317279E84DB005BFE55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				BCB554B9279547A200F68274 /* Main.storyboard */,
 				BCB554BC279547A300F68274 /* Assets.xcassets */,
 				BCB554BE279547A300F68274 /* LaunchScreen.storyboard */,
 				BCB554C1279547A300F68274 /* Info.plist */,
 			);
-			path = iTahDoodle;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +299,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5UCYX7SGSA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iTahDoodle/Info.plist;
+				INFOPLIST_FILE = "iTahDoodle/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +327,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5UCYX7SGSA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iTahDoodle/Info.plist;
+				INFOPLIST_FILE = "iTahDoodle/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
