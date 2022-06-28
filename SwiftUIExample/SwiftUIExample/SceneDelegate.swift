@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  iTahDoodle
+//  SwiftUIExample
 //
-//  Created by YongQin on 2022/1/17.
+//  Created by czeras on 2022/6/29.
 //
 
 import UIKit

@@ -7,139 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A9D99E51F309351BA2DFF64 /* libPods-iTahDoodle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7970E2B97A72DEC53A66560B /* libPods-iTahDoodle.a */; };
-		9D78FDDE27A17C0100CB9778 /* TodoListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D78FDDD27A17C0100CB9778 /* TodoListModel.swift */; };
-		BCB554B4279547A200F68274 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB554B3279547A200F68274 /* AppDelegate.swift */; };
-		BCB554B6279547A200F68274 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB554B5279547A200F68274 /* SceneDelegate.swift */; };
-		BCB554B8279547A200F68274 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB554B7279547A200F68274 /* ViewController.swift */; };
-		BCB554BB279547A200F68274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB554B9279547A200F68274 /* Main.storyboard */; };
-		BCB554BD279547A300F68274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB554BC279547A300F68274 /* Assets.xcassets */; };
-		BCB554C0279547A300F68274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB554BE279547A300F68274 /* LaunchScreen.storyboard */; };
+		9D9EEBC6286B6271006D752B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9EEBC5286B6271006D752B /* AppDelegate.swift */; };
+		9D9EEBC8286B6271006D752B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9EEBC7286B6271006D752B /* SceneDelegate.swift */; };
+		9D9EEBCA286B6271006D752B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9EEBC9286B6271006D752B /* ViewController.swift */; };
+		9D9EEBCD286B6271006D752B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D9EEBCB286B6271006D752B /* Main.storyboard */; };
+		9D9EEBCF286B6272006D752B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D9EEBCE286B6272006D752B /* Assets.xcassets */; };
+		9D9EEBD2286B6272006D752B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D9EEBD0286B6272006D752B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1789D3C609AA63B92BC8F7D3 /* Pods-iTahDoodle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTahDoodle.debug.xcconfig"; path = "Target Support Files/Pods-iTahDoodle/Pods-iTahDoodle.debug.xcconfig"; sourceTree = "<group>"; };
-		7970E2B97A72DEC53A66560B /* libPods-iTahDoodle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iTahDoodle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D78FDDD27A17C0100CB9778 /* TodoListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListModel.swift; sourceTree = "<group>"; };
-		BCB554B0279547A200F68274 /* iTahDoodle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTahDoodle.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCB554B3279547A200F68274 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCB554B5279547A200F68274 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BCB554B7279547A200F68274 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BCB554BA279547A200F68274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BCB554BC279547A300F68274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BCB554BF279547A300F68274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BCB554C1279547A300F68274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D18124140A1FAD45ACC07A62 /* Pods-iTahDoodle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTahDoodle.release.xcconfig"; path = "Target Support Files/Pods-iTahDoodle/Pods-iTahDoodle.release.xcconfig"; sourceTree = "<group>"; };
+		9D9EEBC2286B6271006D752B /* SwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D9EEBC5286B6271006D752B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D9EEBC7286B6271006D752B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9D9EEBC9286B6271006D752B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D9EEBCC286B6271006D752B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D9EEBCE286B6272006D752B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D9EEBD1286B6272006D752B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D9EEBD3286B6272006D752B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BCB554AD279547A200F68274 /* Frameworks */ = {
+		9D9EEBBF286B6271006D752B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A9D99E51F309351BA2DFF64 /* libPods-iTahDoodle.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		169F93D3B19D6849C4FB445E /* Frameworks */ = {
+		9D9EEBB9286B6271006D752B = {
 			isa = PBXGroup;
 			children = (
-				7970E2B97A72DEC53A66560B /* libPods-iTahDoodle.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BCB554A7279547A200F68274 = {
-			isa = PBXGroup;
-			children = (
-				BCB554B2279547A200F68274 /* iTahDoodle */,
-				BCB554B1279547A200F68274 /* Products */,
-				F64DB5B5E8A6501C987D42B9 /* Pods */,
-				169F93D3B19D6849C4FB445E /* Frameworks */,
+				9D9EEBC4286B6271006D752B /* SwiftExample */,
+				9D9EEBC3286B6271006D752B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BCB554B1279547A200F68274 /* Products */ = {
+		9D9EEBC3286B6271006D752B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BCB554B0279547A200F68274 /* iTahDoodle.app */,
+				9D9EEBC2286B6271006D752B /* SwiftExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BCB554B2279547A200F68274 /* iTahDoodle */ = {
+		9D9EEBC4286B6271006D752B /* SwiftExample */ = {
 			isa = PBXGroup;
 			children = (
-				BCB554B3279547A200F68274 /* AppDelegate.swift */,
-				BCB554B5279547A200F68274 /* SceneDelegate.swift */,
-				BCB554B7279547A200F68274 /* ViewController.swift */,
-				9D78FDDD27A17C0100CB9778 /* TodoListModel.swift */,
-				BCC0D317279E84DB005BFE55 /* Supporting Files */,
+				9D9EEBC5286B6271006D752B /* AppDelegate.swift */,
+				9D9EEBC7286B6271006D752B /* SceneDelegate.swift */,
+				9D9EEBC9286B6271006D752B /* ViewController.swift */,
+				9D9EEBCB286B6271006D752B /* Main.storyboard */,
+				9D9EEBCE286B6272006D752B /* Assets.xcassets */,
+				9D9EEBD0286B6272006D752B /* LaunchScreen.storyboard */,
+				9D9EEBD3286B6272006D752B /* Info.plist */,
 			);
-			path = iTahDoodle;
-			sourceTree = "<group>";
-		};
-		BCC0D317279E84DB005BFE55 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				BCB554B9279547A200F68274 /* Main.storyboard */,
-				BCB554BC279547A300F68274 /* Assets.xcassets */,
-				BCB554BE279547A300F68274 /* LaunchScreen.storyboard */,
-				BCB554C1279547A300F68274 /* Info.plist */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F64DB5B5E8A6501C987D42B9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1789D3C609AA63B92BC8F7D3 /* Pods-iTahDoodle.debug.xcconfig */,
-				D18124140A1FAD45ACC07A62 /* Pods-iTahDoodle.release.xcconfig */,
-			);
-			name = Pods;
-			path = ../Pods;
+			path = SwiftExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BCB554AF279547A200F68274 /* iTahDoodle */ = {
+		9D9EEBC1286B6271006D752B /* SwiftExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BCB554C4279547A300F68274 /* Build configuration list for PBXNativeTarget "iTahDoodle" */;
+			buildConfigurationList = 9D9EEBD6286B6272006D752B /* Build configuration list for PBXNativeTarget "SwiftExample" */;
 			buildPhases = (
-				60C83DDF6F57B07786F0290E /* [CP] Check Pods Manifest.lock */,
-				BCB554AC279547A200F68274 /* Sources */,
-				BCB554AD279547A200F68274 /* Frameworks */,
-				BCB554AE279547A200F68274 /* Resources */,
+				9D9EEBBE286B6271006D752B /* Sources */,
+				9D9EEBBF286B6271006D752B /* Frameworks */,
+				9D9EEBC0286B6271006D752B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = iTahDoodle;
-			productName = iTahDoodle;
-			productReference = BCB554B0279547A200F68274 /* iTahDoodle.app */;
+			name = SwiftExample;
+			productName = SwiftExample;
+			productReference = 9D9EEBC2286B6271006D752B /* SwiftExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BCB554A8279547A200F68274 /* Project object */ = {
+		9D9EEBBA286B6271006D752B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					BCB554AF279547A200F68274 = {
+					9D9EEBC1286B6271006D752B = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = BCB554AB279547A200F68274 /* Build configuration list for PBXProject "iTahDoodle" */;
+			buildConfigurationList = 9D9EEBBD286B6271006D752B /* Build configuration list for PBXProject "SwiftExample" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -147,81 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = BCB554A7279547A200F68274;
-			productRefGroup = BCB554B1279547A200F68274 /* Products */;
+			mainGroup = 9D9EEBB9286B6271006D752B;
+			productRefGroup = 9D9EEBC3286B6271006D752B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BCB554AF279547A200F68274 /* iTahDoodle */,
+				9D9EEBC1286B6271006D752B /* SwiftExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BCB554AE279547A200F68274 /* Resources */ = {
+		9D9EEBC0286B6271006D752B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCB554C0279547A300F68274 /* LaunchScreen.storyboard in Resources */,
-				BCB554BD279547A300F68274 /* Assets.xcassets in Resources */,
-				BCB554BB279547A200F68274 /* Main.storyboard in Resources */,
+				9D9EEBD2286B6272006D752B /* LaunchScreen.storyboard in Resources */,
+				9D9EEBCF286B6272006D752B /* Assets.xcassets in Resources */,
+				9D9EEBCD286B6271006D752B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		60C83DDF6F57B07786F0290E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-iTahDoodle-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		BCB554AC279547A200F68274 /* Sources */ = {
+		9D9EEBBE286B6271006D752B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCB554B8279547A200F68274 /* ViewController.swift in Sources */,
-				9D78FDDE27A17C0100CB9778 /* TodoListModel.swift in Sources */,
-				BCB554B4279547A200F68274 /* AppDelegate.swift in Sources */,
-				BCB554B6279547A200F68274 /* SceneDelegate.swift in Sources */,
+				9D9EEBCA286B6271006D752B /* ViewController.swift in Sources */,
+				9D9EEBC6286B6271006D752B /* AppDelegate.swift in Sources */,
+				9D9EEBC8286B6271006D752B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BCB554B9279547A200F68274 /* Main.storyboard */ = {
+		9D9EEBCB286B6271006D752B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BCB554BA279547A200F68274 /* Base */,
+				9D9EEBCC286B6271006D752B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BCB554BE279547A300F68274 /* LaunchScreen.storyboard */ = {
+		9D9EEBD0286B6272006D752B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BCB554BF279547A300F68274 /* Base */,
+				9D9EEBD1286B6272006D752B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -229,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BCB554C2279547A300F68274 /* Debug */ = {
+		9D9EEBD4286B6272006D752B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -290,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		BCB554C3279547A300F68274 /* Release */ = {
+		9D9EEBD5286B6272006D752B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -345,17 +282,16 @@
 			};
 			name = Release;
 		};
-		BCB554C5279547A300F68274 /* Debug */ = {
+		9D9EEBD7286B6272006D752B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1789D3C609AA63B92BC8F7D3 /* Pods-iTahDoodle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5UCYX7SGSA;
+				DEVELOPMENT_TEAM = 687G9WNK6U;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iTahDoodle/Supporting Files/Info.plist";
+				INFOPLIST_FILE = SwiftExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -366,7 +302,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yongqin.iTahDoodle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.czeras.SwiftExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -374,17 +310,16 @@
 			};
 			name = Debug;
 		};
-		BCB554C6279547A300F68274 /* Release */ = {
+		9D9EEBD8286B6272006D752B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D18124140A1FAD45ACC07A62 /* Pods-iTahDoodle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5UCYX7SGSA;
+				DEVELOPMENT_TEAM = 687G9WNK6U;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iTahDoodle/Supporting Files/Info.plist";
+				INFOPLIST_FILE = SwiftExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -395,7 +330,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yongqin.iTahDoodle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.czeras.SwiftExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -406,25 +341,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BCB554AB279547A200F68274 /* Build configuration list for PBXProject "iTahDoodle" */ = {
+		9D9EEBBD286B6271006D752B /* Build configuration list for PBXProject "SwiftExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BCB554C2279547A300F68274 /* Debug */,
-				BCB554C3279547A300F68274 /* Release */,
+				9D9EEBD4286B6272006D752B /* Debug */,
+				9D9EEBD5286B6272006D752B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BCB554C4279547A300F68274 /* Build configuration list for PBXNativeTarget "iTahDoodle" */ = {
+		9D9EEBD6286B6272006D752B /* Build configuration list for PBXNativeTarget "SwiftExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BCB554C5279547A300F68274 /* Debug */,
-				BCB554C6279547A300F68274 /* Release */,
+				9D9EEBD7286B6272006D752B /* Debug */,
+				9D9EEBD8286B6272006D752B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BCB554A8279547A200F68274 /* Project object */;
+	rootObject = 9D9EEBBA286B6271006D752B /* Project object */;
 }
